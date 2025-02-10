@@ -3,7 +3,6 @@ import requests
 import json
 import re
 # Define API URL and API Key
-#API_URL = "https://granite-8b-code-instruct-maas-apicast-production.apps.prod.rhoai.rh-aiservices-bu.com:443"
 API_URL = "http://localhost:11434/api/generate"
 API_KEY = "xxxxxxxxxxxxxxxx"
 
