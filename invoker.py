@@ -14,7 +14,7 @@ def process_json(file_path):
 
         for i in range(1, 4):  # Iterate 3 times
             results = []
-            print(f"***** Codellama Iteration {i}/3 *****")
+            print(f"***** Iteration {i}/3 *****")
 
             for item in data:
                 requirement = item.get("requirement")
