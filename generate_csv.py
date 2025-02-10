@@ -7,7 +7,7 @@ import re
 csv_filename = "SBC_scores_summary_codestral_new.csv"
 
 # Collect all SBC score JSON files
-json_files = glob.glob("[1-9]*-SBC_scores-codestal.json")  # Matches files like 1-SBC_scores_codellama.json
+json_files = glob.glob("[1-9]*-SBC_scores-xxx.json")  # Matches files like 1-SBC_scores_codellama.json
 
 # Initialize CSV data storage
 csv_data = []
