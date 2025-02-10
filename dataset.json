@@ -1,0 +1,544 @@
+[
+    {
+      "question_id": 1,
+      "requirement": "The system shall provide a registration form that includes fields for first name, last name, date of birth, address, and gender. The first name, last name, and date of birth fields shall be mandatory and highlighted in red. The address and gender fields shall be optional. The form shall include appropriate input validations to ensure that all mandatory fields are filled in with correct data types (e.g., date of birth should be in the correct date format). The form shall also provide real-time validation messages, for example, 'Please enter a valid date of birth'. If the form is successfully filled out, the user shall be able to submit it using a 'Submit' button. Upon successful submission, a confirmation message shall be displayed, such as 'Registration successful'. The confirmation message shall remain visible for 5 seconds before redirecting the user to the home page.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 2,
+      "requirement": "The system shall allow users to edit their registration details, including first name, last name, date of birth, address, and gender. Each of these fields shall have an 'Edit' button next to them that when clicked, transforms the fields into editable text boxes. The fields shall be pre-populated with the user's current information, and the user shall be able to modify these details. The system shall validate all edited fields in the same way as during initial registration (e.g., mandatory fields shall be validated, and the system shall highlight invalid fields in red with appropriate error messages). After the user makes changes and clicks the 'Save' button, the updated information shall be saved and a confirmation message saying 'Profile updated successfully' shall appear.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 3,
+      "requirement": "The system shall display a list of existing users in a table format. The table shall contain columns for first name, last name, date of birth, address, and gender. Each row in the table shall represent an individual user. The system shall allow the user to search through the table by entering a search term in a search box located at the top of the table. The search functionality shall filter the table based on the entered text, matching against first name, last name, or any other field in the table. Additionally, the system shall allow users to sort the table by each column, either in ascending or descending order. For instance, clicking on the 'Date of Birth' column header shall sort the table by date of birth.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 4,
+      "requirement": "The system shall allow users to add new family member information, including fields for name, age, gender, and relationship to the user. The user shall be able to add multiple family members using an 'Add Family Member' button. Each family member's details shall be displayed in a list format, showing their name, age, gender, and relationship to the user. The system shall validate the family member's age to ensure it is a valid number and flag any non-numeric input. The user shall be able to edit or delete family member entries, with an 'Edit' and 'Delete' button next to each family member's information. After saving any changes, a success message 'Family details updated successfully' shall be displayed.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 5,
+      "requirement": "The system shall allow users to input details about their pets, including name, species, breed, age, and medical history. The system shall validate the age to ensure it is a positive number and that the medical history field accepts text input. The user shall be able to add multiple pets, each with its own set of details. The system shall allow the user to edit or remove pets from the list of entered pets. A confirmation message 'Pet details updated successfully' shall be displayed after any successful update or removal.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 6,
+      "requirement": "The system shall allow users to search for family members by name or age. The search box shall be placed at the top of the family details page. The search functionality shall update the displayed list of family members in real time as the user types, showing only the matching results. The system shall provide an option to clear the search filter and show all family members again. The search results shall include the family member's name, age, and relationship to the user.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 7,
+      "requirement": "The system shall display a detailed view of each pet's information when clicked, showing their name, species, breed, age, medical history, and any medications or treatments. The detailed view shall have an option to edit the pet's information, allowing the user to update any of the fields. Additionally, the system shall provide a button to remove the pet from the user's list. After any changes are made or a pet is removed, a confirmation message shall appear stating 'Pet information updated successfully' or 'Pet removed successfully'.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 8,
+      "requirement": "The system shall allow the user to view and manage patient details. The user shall input the patient's name, age, medical history, and contact information, including emergency contact. The system shall allow the user to add or edit these details. When adding or editing a patient's information, the system shall validate the age field, ensuring it is a positive integer. The emergency contact field shall be validated to ensure it includes a valid phone number. Upon successful addition or modification of patient details, a success message 'Patient details updated successfully' shall be displayed.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 9,
+      "requirement": "The system shall provide a patient search feature, allowing the user to search patients based on their name, age, or medical condition. The search shall be performed in real-time as the user types into the search bar. The results shall display the patient's name, age, and medical condition. The system shall also allow the user to filter results by age range or medical condition.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+      "question_id": 10,
+      "requirement": "The system shall provide a detailed view of each patient's information when selected from the search results. The detailed view shall include the patient's name, age, medical condition, and medical history. It shall also show any ongoing treatments or medications, as well as the patient's emergency contact details. The system shall allow the user to edit the patient's details or delete the patient from the records. Upon successfully editing or deleting, a confirmation message shall be displayed, stating 'Patient details updated' or 'Patient deleted'.",
+      "implementation_layer": "UI",
+      "programming_language": "react"
+    },
+    {
+        "question_id": 11,
+        "requirement": "The system shall provide a registration form that includes fields for first name, last name, date of birth, address, and gender. The first name, last name, and date of birth fields shall be mandatory and highlighted in red. The address and gender fields shall be optional. The form shall include appropriate input validations to ensure that all mandatory fields are filled in with correct data types (e.g., date of birth should be in the correct date format). The form shall also provide real-time validation messages, for example, 'Please enter a valid date of birth'. If the form is successfully filled out, the user shall be able to submit it using a 'Submit' button. Upon successful submission, a confirmation message shall be displayed, such as 'Registration successful'. The confirmation message shall remain visible for 5 seconds before redirecting the user to the home page.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 12,
+        "requirement": "The system shall allow users to edit their registration details, including first name, last name, date of birth, address, and gender. Each of these fields shall have an 'Edit' button next to them that when clicked, transforms the fields into editable text boxes. The fields shall be pre-populated with the user's current information, and the user shall be able to modify these details. The system shall validate all edited fields in the same way as during initial registration (e.g., mandatory fields shall be validated, and the system shall highlight invalid fields in red with appropriate error messages). After the user makes changes and clicks the 'Save' button, the updated information shall be saved and a confirmation message saying 'Profile updated successfully' shall appear.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 13,
+        "requirement": "The system shall display a list of existing users in a table format. The table shall contain columns for first name, last name, date of birth, address, and gender. Each row in the table shall represent an individual user. The system shall allow the user to search through the table by entering a search term in a search box located at the top of the table. The search functionality shall filter the table based on the entered text, matching against first name, last name, or any other field in the table. Additionally, the system shall allow users to sort the table by each column, either in ascending or descending order. For instance, clicking on the 'Date of Birth' column header shall sort the table by date of birth.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 14,
+        "requirement": "The system shall allow users to add new family member information, including fields for name, age, gender, and relationship to the user. The user shall be able to add multiple family members using an 'Add Family Member' button. Each family member's details shall be displayed in a list format, showing their name, age, gender, and relationship to the user. The system shall validate the family member's age to ensure it is a valid number and flag any non-numeric input. The user shall be able to edit or delete family member entries, with an 'Edit' and 'Delete' button next to each family member's information. After saving any changes, a success message 'Family details updated successfully' shall be displayed.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 15,
+        "requirement": "The system shall allow users to input details about their pets, including name, species, breed, age, and medical history. The system shall validate the age to ensure it is a positive number and that the medical history field accepts text input. The user shall be able to add multiple pets, each with its own set of details. The system shall allow the user to edit or remove pets from the list of entered pets. A confirmation message 'Pet details updated successfully' shall be displayed after any successful update or removal.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 16,
+        "requirement": "The system shall allow users to search for family members by name or age. The search box shall be placed at the top of the family details page. The search functionality shall update the displayed list of family members in real time as the user types, showing only the matching results. The system shall provide an option to clear the search filter and show all family members again. The search results shall include the family member's name, age, and relationship to the user.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 17,
+        "requirement": "The system shall display a detailed view of each pet's information when clicked, showing their name, species, breed, age, medical history, and any medications or treatments. The detailed view shall have an option to edit the pet's information, allowing the user to update any of the fields. Additionally, the system shall provide a button to remove the pet from the user's list. After any changes are made or a pet is removed, a confirmation message shall appear stating 'Pet information updated successfully' or 'Pet removed successfully'.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 18,
+        "requirement": "The system shall allow the user to view and manage patient details. The user shall input the patient's name, age, medical history, and contact information, including emergency contact. The system shall allow the user to add or edit these details. When adding or editing a patient's information, the system shall validate the age field, ensuring it is a positive integer. The emergency contact field shall be validated to ensure it includes a valid phone number. Upon successful addition or modification of patient details, a success message 'Patient details updated successfully' shall be displayed.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 19,
+        "requirement": "The system shall provide a patient search feature, allowing the user to search patients based on their name, age, or medical condition. The search shall be performed in real-time as the user types into the search bar. The results shall display the patient's name, age, and medical condition. The system shall also allow the user to filter results by age range or medical condition.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },
+      {
+        "question_id": 20,
+        "requirement": "The system shall provide a detailed view of each patient's information when selected from the search results. The detailed view shall include the patient's name, age, medical condition, and medical history. It shall also show any ongoing treatments or medications, as well as the patient's emergency contact details. The system shall allow the user to edit the patient's details or delete the patient from the records. Upon successfully editing or deleting, a confirmation message shall be displayed, stating 'Patient details updated' or 'Patient deleted'.",
+        "implementation_layer": "UI",
+        "programming_language": "angular"
+      },   
+      {
+          "question_id": 21,
+          "requirement": "The system shall store and manage user and account information. Each user shall have a profile containing Title, First Name, Middle Name, Last Name, Gender, Address, Zip Code, State, Country, and Phone Number, with all fields being mandatory except for Title and Middle Name. Users may have one or more accounts, each uniquely identified and linked to them. Account details shall include Account Number, Account Type, Beneficiary, Total Deposit, Interest Rate, and Account Status. The system shall ensure data integrity, enforce mandatory fields, and maintain accurate associations between users and their accounts.",
+          "implementation_layer": "Data",
+          "programming_language": "SQL"
+      },
+      {
+        "question_id": 22,
+        "requirement": "The system shall store and manage doctor and patient records. Each doctor shall have a profile containing First Name, Last Name, Specialization, License Number, Contact Number, and Email, with all fields being mandatory. A doctor may have multiple patients assigned to them. Each patient record shall include Patient ID, First Name, Last Name, Date of Birth, Medical History, and Primary Doctor. The system shall maintain accurate associations between doctors and patients while ensuring data integrity.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 23,
+        "requirement": "The system shall store and manage employee and employer details. Each employer shall have a profile containing Employer ID, Company Name, Industry Type, Address, and Contact Number. An employer may have multiple employees associated with them. Employee details shall include Employee ID, First Name, Last Name, Job Title, Salary, Department, and Employer ID as a foreign key. The system shall ensure accurate mapping between employees and their respective employers.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 24,
+        "requirement": "The system shall store and manage student and course enrollments. Each student shall have a unique Student ID, First Name, Last Name, Date of Birth, Address, and Contact Number. Students may enroll in multiple courses. Each course shall have a Course ID, Course Name, Description, Instructor, and Credits. The system shall establish a many-to-many relationship between students and courses using an enrollment table, ensuring that a student can register for multiple courses and each course can have multiple students.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 25,
+        "requirement": "The system shall manage vehicle ownership details. Each vehicle owner shall have an Owner ID, First Name, Last Name, Address, Phone Number, and Email. Owners may own multiple vehicles. Each vehicle record shall include Vehicle ID, Make, Model, Year, License Plate Number, and Owner ID as a foreign key. The system shall ensure data integrity and accurate associations between owners and their vehicles.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 26,
+        "requirement": "The system shall store and manage book and author details in a library. Each book shall have a unique ISBN, Title, Genre, Publication Year, and Author ID as a foreign key. An author may have written multiple books. Author details shall include Author ID, First Name, Last Name, Date of Birth, and Nationality. The system shall establish a one-to-many relationship between authors and books while maintaining data consistency.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 27,
+        "requirement": "The system shall store and manage supplier and product information. Each supplier shall have a Supplier ID, Company Name, Contact Name, Address, and Phone Number. A supplier may provide multiple products. Each product shall have a Product ID, Product Name, Description, Price, and Supplier ID as a foreign key. The system shall ensure accurate relationships between suppliers and the products they provide.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 28,
+        "requirement": "The system shall manage airline reservations, storing passenger and flight details. Each passenger shall have a Passenger ID, First Name, Last Name, Date of Birth, Passport Number, and Contact Number. A passenger may book multiple flights. Each flight record shall include Flight ID, Airline Name, Departure Location, Destination, Date, and Time. The system shall ensure a many-to-many relationship between passengers and flights using a booking table.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 29,
+        "requirement": "The system shall store and manage hotel guest and reservation information. Each guest shall have a Guest ID, First Name, Last Name, Contact Number, and Email. Guests may have multiple reservations. Each reservation shall have a Reservation ID, Check-in Date, Check-out Date, Room Type, Payment Status, and Guest ID as a foreign key. The system shall maintain accurate associations between guests and their reservations.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 30,
+        "requirement": "The system shall manage order and customer details for an e-commerce platform. Each customer shall have a Customer ID, First Name, Last Name, Email, Address, and Phone Number. A customer may place multiple orders. Each order shall have an Order ID, Order Date, Total Amount, Payment Status, and Customer ID as a foreign key. The system shall establish accurate relationships between customers and their orders.",
+        "implementation_layer": "Data",
+        "programming_language": "SQL"
+    },
+    {
+        "question_id": 31,
+        "requirement": "The system shall create a object model for 'Doctor' and 'Patient' entities, where the 'Doctor' object includes fields for first name, last name, specialization, license number, and availability, and the 'Patient' object contains fields for first name, last name, date of birth, address, and medical history. The relationship between 'Doctor' and 'Patient' shall be many-to-many, where each doctor can have multiple patients, and each patient can be assigned to multiple doctors.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 32,
+        "requirement": "The system shall design a object model for 'Employer' and 'Employee' entities, where the 'Employer' object includes fields for company name, registration number, and address, and the 'Employee' object contains fields for first name, last name, date of birth, employee ID, job title, and salary. The relationship between 'Employer' and 'Employee' shall be one-to-many, where each employer can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 33,
+        "requirement": "The system shall design a object model for 'Course' and 'Student' entities, where the 'Course' object includes fields for course name, course code, and credits, and the 'Student' object contains fields for first name, last name, date of birth, student ID, and enrolled courses. The relationship between 'Course' and 'Student' shall be many-to-many, where each course can have multiple students, and each student can enroll in multiple courses.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 34,
+        "requirement": "The system shall create a object model for 'Project' and 'Team Member' entities, where the 'Project' object includes fields for project name, project ID, and due date, and the 'Team Member' object contains fields for employee name, role, and assigned tasks. The relationship between 'Project' and 'Team Member' shall be many-to-many, where each project can have multiple team members, and each team member can be assigned to multiple projects.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 35,
+        "requirement": "The system shall create a object model for 'Order' and 'Product' entities, where the 'Order' object includes fields for order number, customer details, order date, and total amount, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Order' and 'Product' shall be many-to-many, where each order can contain multiple products, and each product can appear in multiple orders.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 36,
+        "requirement": "The system shall create a object model for 'Library' and 'Book' entities, where the 'Library' object includes fields for library name, location, and opening hours, and the 'Book' object contains fields for title, author, ISBN, and publication year. The relationship between 'Library' and 'Book' shall be one-to-many, where each library can have multiple books.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 37,
+        "requirement": "The system shall design a object model for 'Supplier' and 'Product' entities, where the 'Supplier' object includes fields for supplier name, contact details, and rating, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Supplier' and 'Product' shall be one-to-many, where each supplier can provide multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 38,
+        "requirement": "The system shall create a object model for 'Event' and 'Attendee' entities, where the 'Event' object includes fields for event name, location, date, and duration, and the 'Attendee' object contains fields for first name, last name, and ticket type. The relationship between 'Event' and 'Attendee' shall be many-to-many, where each event can have multiple attendees, and each attendee can attend multiple events.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 39,
+        "requirement": "The system shall create a object model for 'Manufacturer' and 'Product' entities, where the 'Manufacturer' object includes fields for manufacturer name, address, and contact details, and the 'Product' object contains fields for product name, SKU, price, and manufacturing date. The relationship between 'Manufacturer' and 'Product' shall be one-to-many, where each manufacturer can produce multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 40,
+        "requirement": "The system shall design a object model for 'Employee' and 'Manager' entities, where the 'Employee' object includes fields for first name, last name, job title, and salary, and the 'Manager' object contains fields for name, department, and managed employees. The relationship between 'Employee' and 'Manager' shall be many-to-one, where each employee has one manager, and each manager can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "SpringBoot"
+      },
+      {
+        "question_id": 41,
+        "requirement": "The system shall create a object model for 'Doctor' and 'Patient' entities, where the 'Doctor' object includes fields for first name, last name, specialization, license number, and availability, and the 'Patient' object contains fields for first name, last name, date of birth, address, and medical history. The relationship between 'Doctor' and 'Patient' shall be many-to-many, where each doctor can have multiple patients, and each patient can be assigned to multiple doctors.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 42,
+        "requirement": "The system shall design a object model for 'Employer' and 'Employee' entities, where the 'Employer' object includes fields for company name, registration number, and address, and the 'Employee' object contains fields for first name, last name, date of birth, employee ID, job title, and salary. The relationship between 'Employer' and 'Employee' shall be one-to-many, where each employer can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 43,
+        "requirement": "The system shall design a object model for 'Course' and 'Student' entities, where the 'Course' object includes fields for course name, course code, and credits, and the 'Student' object contains fields for first name, last name, date of birth, student ID, and enrolled courses. The relationship between 'Course' and 'Student' shall be many-to-many, where each course can have multiple students, and each student can enroll in multiple courses.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 44,
+        "requirement": "The system shall create a object model for 'Project' and 'Team Member' entities, where the 'Project' object includes fields for project name, project ID, and due date, and the 'Team Member' object contains fields for employee name, role, and assigned tasks. The relationship between 'Project' and 'Team Member' shall be many-to-many, where each project can have multiple team members, and each team member can be assigned to multiple projects.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 45,
+        "requirement": "The system shall create a object model for 'Order' and 'Product' entities, where the 'Order' object includes fields for order number, customer details, order date, and total amount, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Order' and 'Product' shall be many-to-many, where each order can contain multiple products, and each product can appear in multiple orders.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 46,
+        "requirement": "The system shall create a object model for 'Library' and 'Book' entities, where the 'Library' object includes fields for library name, location, and opening hours, and the 'Book' object contains fields for title, author, ISBN, and publication year. The relationship between 'Library' and 'Book' shall be one-to-many, where each library can have multiple books.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 47,
+        "requirement": "The system shall design a object model for 'Supplier' and 'Product' entities, where the 'Supplier' object includes fields for supplier name, contact details, and rating, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Supplier' and 'Product' shall be one-to-many, where each supplier can provide multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 48,
+        "requirement": "The system shall create a object model for 'Event' and 'Attendee' entities, where the 'Event' object includes fields for event name, location, date, and duration, and the 'Attendee' object contains fields for first name, last name, and ticket type. The relationship between 'Event' and 'Attendee' shall be many-to-many, where each event can have multiple attendees, and each attendee can attend multiple events.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 49,
+        "requirement": "The system shall create a object model for 'Manufacturer' and 'Product' entities, where the 'Manufacturer' object includes fields for manufacturer name, address, and contact details, and the 'Product' object contains fields for product name, SKU, price, and manufacturing date. The relationship between 'Manufacturer' and 'Product' shall be one-to-many, where each manufacturer can produce multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 50,
+        "requirement": "The system shall design a data model for 'Employee' and 'Manager' entities, where the 'Employee' object includes fields for first name, last name, job title, and salary, and the 'Manager' object contains fields for name, department, and managed employees. The relationship between 'Employee' and 'Manager' shall be many-to-one, where each employee has one manager, and each manager can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": ".NET"
+      },
+      {
+        "question_id": 51,
+        "requirement": "The system shall create a object model for 'Doctor' and 'Patient' entities, where the 'Doctor' object includes fields for first name, last name, specialization, license number, and availability, and the 'Patient' object contains fields for first name, last name, date of birth, address, and medical history. The relationship between 'Doctor' and 'Patient' shall be many-to-many, where each doctor can have multiple patients, and each patient can be assigned to multiple doctors.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 52,
+        "requirement": "The system shall design a object model for 'Employer' and 'Employee' entities, where the 'Employer' object includes fields for company name, registration number, and address, and the 'Employee' object contains fields for first name, last name, date of birth, employee ID, job title, and salary. The relationship between 'Employer' and 'Employee' shall be one-to-many, where each employer can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 53,
+        "requirement": "The system shall design a object model for 'Course' and 'Student' entities, where the 'Course' object includes fields for course name, course code, and credits, and the 'Student' object contains fields for first name, last name, date of birth, student ID, and enrolled courses. The relationship between 'Course' and 'Student' shall be many-to-many, where each course can have multiple students, and each student can enroll in multiple courses.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 54,
+        "requirement": "The system shall create a object model for 'Project' and 'Team Member' entities, where the 'Project' object includes fields for project name, project ID, and due date, and the 'Team Member' object contains fields for employee name, role, and assigned tasks. The relationship between 'Project' and 'Team Member' shall be many-to-many, where each project can have multiple team members, and each team member can be assigned to multiple projects.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 55,
+        "requirement": "The system shall create a object model for 'Order' and 'Product' entities, where the 'Order' object includes fields for order number, customer details, order date, and total amount, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Order' and 'Product' shall be many-to-many, where each order can contain multiple products, and each product can appear in multiple orders.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 56,
+        "requirement": "The system shall create a object model for 'Library' and 'Book' entities, where the 'Library' object includes fields for library name, location, and opening hours, and the 'Book' object contains fields for title, author, ISBN, and publication year. The relationship between 'Library' and 'Book' shall be one-to-many, where each library can have multiple books.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 57,
+        "requirement": "The system shall design a object model for 'Supplier' and 'Product' entities, where the 'Supplier' object includes fields for supplier name, contact details, and rating, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Supplier' and 'Product' shall be one-to-many, where each supplier can provide multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 58,
+        "requirement": "The system shall create a object model for 'Event' and 'Attendee' entities, where the 'Event' object includes fields for event name, location, date, and duration, and the 'Attendee' object contains fields for first name, last name, and ticket type. The relationship between 'Event' and 'Attendee' shall be many-to-many, where each event can have multiple attendees, and each attendee can attend multiple events.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 59,
+        "requirement": "The system shall create a object model for 'Manufacturer' and 'Product' entities, where the 'Manufacturer' object includes fields for manufacturer name, address, and contact details, and the 'Product' object contains fields for product name, SKU, price, and manufacturing date. The relationship between 'Manufacturer' and 'Product' shall be one-to-many, where each manufacturer can produce multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 60,
+        "requirement": "The system shall design a data model for 'Employee' and 'Manager' entities, where the 'Employee' object includes fields for first name, last name, job title, and salary, and the 'Manager' object contains fields for name, department, and managed employees. The relationship between 'Employee' and 'Manager' shall be many-to-one, where each employee has one manager, and each manager can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Node"
+      },
+      {
+        "question_id": 61,
+        "requirement": "The system shall create a object model for 'Doctor' and 'Patient' entities, where the 'Doctor' object includes fields for first name, last name, specialization, license number, and availability, and the 'Patient' object contains fields for first name, last name, date of birth, address, and medical history. The relationship between 'Doctor' and 'Patient' shall be many-to-many, where each doctor can have multiple patients, and each patient can be assigned to multiple doctors.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 62,
+        "requirement": "The system shall design a object model for 'Employer' and 'Employee' entities, where the 'Employer' object includes fields for company name, registration number, and address, and the 'Employee' object contains fields for first name, last name, date of birth, employee ID, job title, and salary. The relationship between 'Employer' and 'Employee' shall be one-to-many, where each employer can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 63,
+        "requirement": "The system shall design a object model for 'Course' and 'Student' entities, where the 'Course' object includes fields for course name, course code, and credits, and the 'Student' object contains fields for first name, last name, date of birth, student ID, and enrolled courses. The relationship between 'Course' and 'Student' shall be many-to-many, where each course can have multiple students, and each student can enroll in multiple courses.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 64,
+        "requirement": "The system shall create a object model for 'Project' and 'Team Member' entities, where the 'Project' object includes fields for project name, project ID, and due date, and the 'Team Member' object contains fields for employee name, role, and assigned tasks. The relationship between 'Project' and 'Team Member' shall be many-to-many, where each project can have multiple team members, and each team member can be assigned to multiple projects.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 65,
+        "requirement": "The system shall create a object model for 'Order' and 'Product' entities, where the 'Order' object includes fields for order number, customer details, order date, and total amount, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Order' and 'Product' shall be many-to-many, where each order can contain multiple products, and each product can appear in multiple orders.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 66,
+        "requirement": "The system shall create a object model for 'Library' and 'Book' entities, where the 'Library' object includes fields for library name, location, and opening hours, and the 'Book' object contains fields for title, author, ISBN, and publication year. The relationship between 'Library' and 'Book' shall be one-to-many, where each library can have multiple books.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 67,
+        "requirement": "The system shall design a object model for 'Supplier' and 'Product' entities, where the 'Supplier' object includes fields for supplier name, contact details, and rating, and the 'Product' object contains fields for product name, SKU, price, and stock. The relationship between 'Supplier' and 'Product' shall be one-to-many, where each supplier can provide multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 68,
+        "requirement": "The system shall create a object model for 'Event' and 'Attendee' entities, where the 'Event' object includes fields for event name, location, date, and duration, and the 'Attendee' object contains fields for first name, last name, and ticket type. The relationship between 'Event' and 'Attendee' shall be many-to-many, where each event can have multiple attendees, and each attendee can attend multiple events.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 69,
+        "requirement": "The system shall create a object model for 'Manufacturer' and 'Product' entities, where the 'Manufacturer' object includes fields for manufacturer name, address, and contact details, and the 'Product' object contains fields for product name, SKU, price, and manufacturing date. The relationship between 'Manufacturer' and 'Product' shall be one-to-many, where each manufacturer can produce multiple products.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 70,
+        "requirement": "The system shall design a data model for 'Employee' and 'Manager' entities, where the 'Employee' object includes fields for first name, last name, job title, and salary, and the 'Manager' object contains fields for name, department, and managed employees. The relationship between 'Employee' and 'Manager' shall be many-to-one, where each employee has one manager, and each manager can have multiple employees.",
+        "implementation_layer": "ObjectModel",
+        "programming_language": "Quarkus"
+      },
+      {
+        "question_id": 71,
+        "requirement": "The system shall create an API that calculates the area of a circle given the radius. The API shall accept the radius as a parameter and return the calculated area using the formula A = π * r², where A is the area and r is the radius.",
+        "implementation_layer": "API",
+        "programming_language": "Node-API"
+      },
+      {
+        "question_id": 72,
+        "requirement": "The system shall create an API that implements the Pythagorean theorem. The API shall accept the lengths of two sides of a right-angled triangle as parameters and return the length of the hypotenuse using the formula c = √(a² + b²), where a and b are the sides and c is the hypotenuse.",
+        "implementation_layer": "API",
+        "programming_language": "Node-API"
+      },
+      {
+        "question_id": 73,
+        "requirement": "The system shall create an API that calculates the Body Mass Index (BMI). The API shall accept the weight (in kg) and height (in meters) as parameters and return the calculated BMI using the formula BMI = weight / height².",
+        "implementation_layer": "API",
+        "programming_language": "Node-API"
+      },
+      {
+        "question_id": 74,
+        "requirement": "The system shall create an API that performs currency conversion. The API shall accept an amount in one currency and the target currency code (e.g., USD to EUR), and return the converted amount using predefined exchange rates.",
+        "implementation_layer": "API",
+        "programming_language": "Node-API"
+      },
+      {
+        "question_id": 75,
+        "requirement": "The system shall create an API that calculates the compound interest for a given principal, rate, and time period. The API shall accept the principal amount (P), interest rate (r), time (t), and number of times interest is compounded per year (n) as parameters, and return the compound interest using the formula A = P(1 + r/n)^(nt), where A is the amount after interest.",
+        "implementation_layer": "API",
+        "programming_language": "Node-API"
+      },
+      {
+        "question_id": 76,
+        "requirement": "The system shall create an API that calculates the area of a circle given the radius. The API shall accept the radius as a parameter and return the calculated area using the formula A = π * r², where A is the area and r is the radius.",
+        "implementation_layer": "API",
+        "programming_language": ".NET-API"
+      },
+      {
+        "question_id": 77,
+        "requirement": "The system shall create an API that implements the Pythagorean theorem. The API shall accept the lengths of two sides of a right-angled triangle as parameters and return the length of the hypotenuse using the formula c = √(a² + b²), where a and b are the sides and c is the hypotenuse.",
+        "implementation_layer": "API",
+        "programming_language": ".NET-API"
+      },
+      {
+        "question_id": 78,
+        "requirement": "The system shall create an API that calculates the Body Mass Index (BMI). The API shall accept the weight (in kg) and height (in meters) as parameters and return the calculated BMI using the formula BMI = weight / height².",
+        "implementation_layer": "API",
+        "programming_language": ".NET-API"
+      },
+      {
+        "question_id": 79,
+        "requirement": "The system shall create an API that performs currency conversion. The API shall accept an amount in one currency and the target currency code (e.g., USD to EUR), and return the converted amount using predefined exchange rates.",
+        "implementation_layer": "API",
+        "programming_language": ".NET-API"
+      },
+      {
+        "question_id": 80,
+        "requirement": "The system shall create an API that calculates the compound interest for a given principal, rate, and time period. The API shall accept the principal amount (P), interest rate (r), time (t), and number of times interest is compounded per year (n) as parameters, and return the compound interest using the formula A = P(1 + r/n)^(nt), where A is the amount after interest.",
+        "implementation_layer": "API",
+        "programming_language": ".NET-API"
+      },
+      {
+        "question_id": 81,
+        "requirement": "The system shall create an API that calculates the area of a circle given the radius. The API shall accept the radius as a parameter and return the calculated area using the formula A = π * r², where A is the area and r is the radius.",
+        "implementation_layer": "API",
+        "programming_language": "SpringBoot-API"
+      },
+      {
+        "question_id": 82,
+        "requirement": "The system shall create an API that implements the Pythagorean theorem. The API shall accept the lengths of two sides of a right-angled triangle as parameters and return the length of the hypotenuse using the formula c = √(a² + b²), where a and b are the sides and c is the hypotenuse.",
+        "implementation_layer": "API",
+        "programming_language": "SpringBoot-API"
+      },
+      {
+        "question_id": 83,
+        "requirement": "The system shall create an API that calculates the Body Mass Index (BMI). The API shall accept the weight (in kg) and height (in meters) as parameters and return the calculated BMI using the formula BMI = weight / height².",
+        "implementation_layer": "API",
+        "programming_language": "SpringBoot-API"
+      },
+      {
+        "question_id": 84,
+        "requirement": "The system shall create an API that performs currency conversion. The API shall accept an amount in one currency and the target currency code (e.g., USD to EUR), and return the converted amount using predefined exchange rates.",
+        "implementation_layer": "API",
+        "programming_language": "SpringBoot-API"
+      },
+      {
+        "question_id": 85,
+        "requirement": "The system shall create an API that calculates the compound interest for a given principal, rate, and time period. The API shall accept the principal amount (P), interest rate (r), time (t), and number of times interest is compounded per year (n) as parameters, and return the compound interest using the formula A = P(1 + r/n)^(nt), where A is the amount after interest.",
+        "implementation_layer": "API",
+        "programming_language": "SpringBoot-API"
+      },
+      {
+        "question_id": 86,
+        "requirement": "The system shall create an API that calculates the area of a circle given the radius. The API shall accept the radius as a parameter and return the calculated area using the formula A = π * r², where A is the area and r is the radius.",
+        "implementation_layer": "API",
+        "programming_language": "Quarkus-API"
+      },
+      {
+        "question_id": 87,
+        "requirement": "The system shall create an API that implements the Pythagorean theorem. The API shall accept the lengths of two sides of a right-angled triangle as parameters and return the length of the hypotenuse using the formula c = √(a² + b²), where a and b are the sides and c is the hypotenuse.",
+        "implementation_layer": "API",
+        "programming_language": "Quarkus-API"
+      },
+      {
+        "question_id": 88,
+        "requirement": "The system shall create an API that calculates the Body Mass Index (BMI). The API shall accept the weight (in kg) and height (in meters) as parameters and return the calculated BMI using the formula BMI = weight / height².",
+        "implementation_layer": "API",
+        "programming_language": "Quarkus-API"
+      },
+      {
+        "question_id": 89,
+        "requirement": "The system shall create an API that performs currency conversion. The API shall accept an amount in one currency and the target currency code (e.g., USD to EUR), and return the converted amount using predefined exchange rates.",
+        "implementation_layer": "API",
+        "programming_language": "Quarkus-API"
+      },
+      {
+        "question_id": 90,
+        "requirement": "The system shall create an API that calculates the compound interest for a given principal, rate, and time period. The API shall accept the principal amount (P), interest rate (r), time (t), and number of times interest is compounded per year (n) as parameters, and return the compound interest using the formula A = P(1 + r/n)^(nt), where A is the amount after interest.",
+        "implementation_layer": "API",
+        "programming_language": "Quarkus-API"
+      }                         
+       
+  ]
+  
