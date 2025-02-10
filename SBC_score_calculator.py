@@ -72,7 +72,7 @@ if __name__ == "__main__":
     
     # Run the script as a subprocess and capture the output
     result = subprocess.run(
-        ['python3', 'reverse_generation_codellama.py', args.language, args.req1],
+        ['python3', 'reverse_generation.py', args.language, args.req1],
         capture_output=True,
         text=True
     )
