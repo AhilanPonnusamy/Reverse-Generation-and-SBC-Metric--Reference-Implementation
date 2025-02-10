@@ -7,14 +7,14 @@ import re
 csv_filename = "SBC_scores_summary.csv"
 
 # Collect all SBC score JSON files
-json_files = glob.glob("[1-9]*-SBC_scores-xxx.json")  # Matches files like 1-SBC_scores_codellama.json
+json_files = glob.glob("[1-9]*-SBC_scores.json")  # Matches files like 1-SBC_scores_codellama.json
 
 # Initialize CSV data storage
 csv_data = []
 
 # Read JSON files
 for file in sorted(json_files, key=lambda x: int(x.split("-")[0])):  # Ensure files are processed in order
-    batch_number = re.match(r"(\d+)-SBC_scores-codestral\.json", file)  # Extract batch number
+    batch_number = re.match(r"(\d+)-SBC_scores\.json", file)  # Extract batch number
     batch = int(batch_number.group(1)) if batch_number else 0  # Default to 0 if not found
 
     with open(file, "r", encoding="utf-8") as f:
