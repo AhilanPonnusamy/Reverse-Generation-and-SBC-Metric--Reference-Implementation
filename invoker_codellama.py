@@ -12,7 +12,7 @@ def process_json(file_path):
         if not isinstance(data, list):
             raise ValueError("JSON file must contain a list of objects.")
 
-        for i in range(1, 4):  # Iterate 25 times
+        for i in range(1, 4):  # Iterate 3 times
             results = []
             print(f"***** Codellama Iteration {i}/3 *****")
 
