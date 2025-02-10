@@ -35,7 +35,7 @@ def process_json(file_path):
                     print(f"Skipping entry {questionid}: missing 'requirement' field")
 
             # Write results to numbered SBC_scores.json file
-            output_filename = f"{i}-SBC_scores-codestal.json"
+            output_filename = f"{i}-SBC_scores.json"
             with open(output_filename, "w", encoding='utf-8') as output_file:
                 json.dump(results, output_file, indent=4)
 
